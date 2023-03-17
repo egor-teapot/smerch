@@ -1,0 +1,13 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 30vh;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}

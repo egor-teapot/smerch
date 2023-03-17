@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+
+    height: 10vh;
+    background: #3C5328;
+    padding: 0 2rem;
+    z-index: 99;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FF6D49;
+    font-family: 'Unbounded';
+}
+
+.nav-link:not(:last-child) {
+    padding-right: 20px;
+}
+
+.nav-logo-link {
+    text-decoration: none;
+    color: #FF6D49;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-family: 'Unbounded';
+}

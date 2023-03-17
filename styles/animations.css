@@ -1,0 +1,60 @@
+@keyframes hover-slideout-item-mouseover {
+    from {
+      border: solid #F0532B;
+
+        width: 0;
+        height: 24px
+    }
+    
+    70% {
+
+
+      width: 300px;
+      height: 24px
+      
+    }
+    
+    to {
+        border: solid #F0532B;
+        width: 300px;
+        height: 200px;
+    }
+  }
+  
+  @keyframes hover-slideout-item-mouseout {
+    from {
+      border: solid #F0532B;
+      padding-left: 1.1rem;
+      width: 300px;
+      height: 200px;      
+    }
+    
+    70% {
+      border: solid #F0532B;
+
+      width: 300px;
+      height: 24px
+      
+    }
+    
+    to {
+
+      width: 0;
+      height: 24px
+    }
+  }
+
+@keyframes header-text-animation {
+  0% {
+    color: rgba(256, 256, 256, 0)
+  }
+
+  80% {
+    color: rgba(256, 256, 256, 0)
+  }
+  
+  90% {
+    color: rgba(256, 256, 256, 1)
+  }
+  
+}

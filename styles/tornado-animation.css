@@ -1,0 +1,270 @@
+.tornado-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    
+    z-index: 20;
+    width: 30rem;
+    height: 30rem;
+  /*   background: #eee; */
+    
+    overflow: hidden
+  }
+  
+  .title {
+    z-index: 10;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Unbounded';
+      
+    animation-duration: 2.5s;
+    animation-name: title-animation;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  .slab-top {
+    background: #F0532B;
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    
+    transform: rotate(-3deg);
+    
+     width: 27rem;
+     height: 5rem;
+    
+    
+     animation-duration: 2.5s;
+     animation-name: slab-top;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .slab-middle {
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    
+    transform: rotate(3deg);
+      
+    
+     background: #F0532B;
+     width: 24rem;
+     height: 5rem;
+     
+     animation-duration: 2.5s;
+     animation-name: slab-middle;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .slab-bottom {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    
+    transform: rotate(-7deg);
+      
+    
+     background: #F0532B;
+     width: 17.5rem;
+     height: 5rem;
+    
+    animation-duration: 2.5s;
+    animation-name: slab-bottom;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  .slab-base {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    
+    transform: rotate(10deg);
+    
+    width: 10rem;
+    height: 3rem;
+    background: #F0532B;
+     
+    animation-duration: 2.5s;
+    animation-name: slab-base;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  
+  
+  @keyframes slab-top {
+    from {
+        bottom: 30%;
+      left: 70%;
+    
+      transform: rotate(3deg);
+       width: 5rem;
+       height: 5rem;
+    }
+    
+    25% {
+        bottom: 50%;
+        left: 0%;
+    
+      transform: rotate(3deg);
+       width: 5rem;
+       height: 5rem;
+    }
+    
+    to {
+        bottom: 50%;
+        left: 10%;
+  
+        transform: rotate(-3deg);
+  
+         width: 27rem;
+         height: 5rem;
+    }
+    
+  }
+  
+  
+  @keyframes title-animation {
+    0% {
+      color: rgba(0, 0, 0, .0)
+    }
+    80% {
+      color: rgba(0, 0, 0, .0)
+    }
+    
+  }
+  
+  
+  
+  @keyframes slab-middle {
+    from {
+  
+      bottom: 20%;
+      left: 10%;
+      
+      transform: rotate(-7deg);
+        
+      
+      width: 2rem;
+       height: 5rem;
+    }
+    
+    25% {
+      bottom: 20%;
+      left: 80%;
+      
+      transform: rotate(3deg);
+        
+      
+      width: 5rem;
+       height: 5rem;
+    }
+    
+    
+    to {
+        bottom: 35%;
+      left: 15%;
+    
+      transform: rotate(3deg);
+       width: 24rem;
+       height: 5rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @keyframes slab-bottom {
+    from {
+        left: 60%;
+        bottom: 0;  
+      
+        transform: rotate(0);
+    
+         width: 5rem;
+        height: 3rem;
+    }
+    
+    25% {
+      
+      left: 20%;
+      
+          transform: rotate(10deg);
+  
+      
+      
+      width: 2rem;
+       height: 5rem;
+      
+    }
+    
+    
+    to {
+      bottom: 20%;
+      left: 30%;
+      
+      transform: rotate(-7deg);
+        
+      
+      width: 14rem;
+       height: 5rem;  
+      
+    
+    }
+  }
+  
+  
+  
+  
+  @keyframes slab-base {
+    from {
+        bottom: 0;
+        left: 30%;
+    
+        transform: rotate(0);
+    
+         width: 5rem;
+        height: 3rem;
+    }
+    
+    25% {
+        left: 60%;
+        
+        transform: rotate(0);
+    
+         width: 5rem;
+        height: 3rem;
+    }
+    
+  /*   
+    45% {
+        left: 25%;
+        
+        transform: rotate(10deg);
+    
+         width: 10rem;
+        height: 3rem;
+    } */
+    
+    to {
+        bottom: 10%;
+        left: 30%;
+    
+        transform: rotate(10deg);
+  
+        width: 10rem;
+        height: 3rem;
+    }
+    
+  }

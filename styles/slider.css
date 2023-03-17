@@ -1,0 +1,121 @@
+.section-wrapper {
+    margin-top: 20rem;
+}
+
+.section-wrapper-text {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #3C5328;
+    text-transform: uppercase;
+    border-bottom: #3C5328;
+    font-family: 'Unbounded';
+}
+
+
+.slider-wrapper {
+    display: flex;
+    /* width: 100%; */
+    /* margin-top: 20rem */
+
+}
+
+.slider {
+    display: flex;
+    flex: 1 1 100%;
+    height: 35rem;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.slider-track {
+    display: flex;
+    transition: .3s;
+    /* overflow: hidden; */
+}
+
+.slider-track-item {
+    flex: 1 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: url('../assets/smetch.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* background-image: ; */
+}
+
+.slider-track-item > img {
+    width: 45%;
+}
+
+.slider-wrapper-button {
+    /* line-height: 1px; */
+    /* text-decoration:double; */
+    font-size: 5rem;
+    z-index: 10;
+    width: 80px;
+    background: #3C5328;
+    color: #F0532B;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+
+.slider-item-description-price {
+    text-align: end;
+}
+
+.slider-item-description-price > * {
+    display: inline;
+}
+
+.slider-item-description-price__old {
+    font-size: 2;
+    text-decoration: line-through;
+    opacity: .5;
+    /* float: right; */
+    /* float: right; */
+}
+
+.slider-item-description-price__new {
+    vertical-align: top;
+    font-size: 3rem;
+    color: #F0532B;
+}
+
+.slider-item-description {
+    position: relative;
+    top: 20%;
+    color: white;
+    background:#3C5328 ;
+    padding: 1rem;
+    width: 14rem;
+    border: solid #F0532B;
+    /* align-self:safe; */
+
+}
+
+.slider-wrapper-button:disabled {
+    opacity: .5;
+}
+
+.slider-item-description__add-to-cart {
+    margin-top: 16px;
+    position: relative;
+    display: inline-block;
+    color: white;
+    background: #F0532B;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.slider-item-description__add-to-cart:hover {
+    /* position: relative; */
+    transition: .3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 0.7rem 1.2rem;
+
+}

@@ -1,0 +1,32 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #9ef;
+    
+    height: 90vh;
+    
+}
+
+.header-text {
+    font-family: 'sans';
+    color: white;
+    z-index: 20;
+
+
+    animation-duration: 3.5s;
+    animation-name: header-text-animation;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    /* animation-delay: 1s; */
+}
+
+.header-img {
+    bottom: 0;
+    /* z-index: 1; */
+    position: absolute;
+    width: 100%;
+}

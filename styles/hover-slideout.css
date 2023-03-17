@@ -1,0 +1,96 @@
+.hover-slideout-list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.hover-slideout-item {
+    position: relative;
+}
+
+.hover-slideout-item__background-img {
+    position: absolute;
+    z-index: -1;
+    left:-30%;
+    bottom: 20px;
+
+    width: 400px;
+}
+
+.hover-slideout-item__img {
+    width: 300px;
+}
+
+.hover-slideout-item__slideout {
+    position: absolute;
+    top:65%;
+    left:70%;
+    
+    width: 0;
+    height: 24px;
+    background: #3C5328;
+    color: white;
+    overflow: hidden;
+    z-index: 10;
+
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+
+    /* padding: 2px 0 !important */
+}
+
+.hover-slideout-item-description-total-price {
+    text-align: end;
+    
+}
+
+.hover-slideout-item-description-total-price__new {
+    vertical-align: top;
+    vertical-align: top;
+    font-size: 3rem;
+    color: #F0532B;
+}
+
+.hover-slideout-item-description-total-price__old {
+    font-size: 2;
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.hover-slideout-item-description-total-price > * {
+    display: inline;
+}
+
+.hover-slideout-item-description-item-list__list-item > * {
+    display: inline;
+}
+
+.hover-slideout-item-description-total-price__item-price {
+    margin-left: 24px;
+    color:#F0532B;
+}
+
+.hover-slideout-item-description__add-to-cart {
+    /* vertical-align: baseline; */
+    display: inline-block;
+    color: white;
+    background: #F0532B;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: .3s;
+
+
+}
+
+.hover-slideout-item-description__add-to-cart:hover {
+    transition: .3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 0.7rem 1.2rem;
+
+}
+
+.hover-slideout-item-description-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
